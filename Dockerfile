@@ -1,5 +1,4 @@
 FROM azul/zulu-openjdk-alpine
-MAINTAINER afajem@gmail.com
 
 # install basic stuff
 RUN apk --update add bash less curl vim
