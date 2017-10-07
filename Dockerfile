@@ -7,4 +7,4 @@ RUN apt-get update && \
 
 # install Zulu Cryptography Extension Kit
 # https://www.azul.com/products/zulu-and-zulu-enterprise/zulu-cryptography-extension-kit/
-COPY ZuluJCEPolicies/*.jar /usr/lib/jvm/zulu8.23.0.3-jdk8.0.144-linux_x64/jre/lib/security/
+COPY ZuluJCEPolicies/*.jar /usr/lib/jvm/zulu-8-amd64/jre/lib/security/
